@@ -39,11 +39,15 @@ Step-by-step instructions
 
 6. See *correspondenceX* and *correspondenceY* windows. If the target object appeared as red/black, proceed to the Segmentation and UV mapping. If not, there are problems with lighting (room lighting and structured light intensity) or the target surface is too glossy.
 
+7. Hit any key to close the app.
+
 ### Segmentation and UV mapping
 
 1. Run *rgbd-example-cluster_projection*. Wait until windows show up.
 
 2. *clusterN* windows represent planes. *mesh_N_M* windows represent other objects (including the target object). 3D meshes are saved as *mesh_N_M.obj*.
+
+3. Hit any key to close the app.
 
 ### Unity3D projection mapping
 
